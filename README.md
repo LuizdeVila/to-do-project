@@ -3,6 +3,7 @@
 📌 Descrição
 
 Este projeto foi desenvolvido durante o curso disponível na plataforma de ensino Udemy ministrado por Yuri Marcon e utilizando Vue.js, Vuetify e Pinia para criar uma interface moderna, responsiva e com um gerenciamento de estado eficiente.
+O link para acessar https://to-do-projeto.netlify.app/
 
 🚀 Tecnologias Utilizadas
 
