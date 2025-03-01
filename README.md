@@ -1,7 +1,24 @@
-# Curso de Vue 3 Com Vuetify e 3 projetos.
+# 📚 Curso de Vue 3 com Vuetify e Pinia
 
-![Captura de Tela 2023-11-13 às 02 36 50](https://github.com/yurimarcon/Curso-vue-3-todo/assets/44410208/cfc67939-5d0e-4fd5-a7ea-b18a2834ffee)
+📌 Descrição
 
+Este projeto foi desenvolvido durante o curso disponível na plataforma de ensino Udemy ministrado por Yuri Marcon e utilizando Vue.js, Vuetify e Pinia para criar uma interface moderna, responsiva e com um gerenciamento de estado eficiente.
+
+🚀 Tecnologias Utilizadas
+
+🟢 Vue.js (Framework)
+
+Vue.js é um framework progressivo para construção de interfaces de usuário. Ele é focado na camada de visualização e pode ser facilmente integrado a outros projetos ou utilizado para desenvolver Single Page Applications (SPAs).
+
+🎨 Vuetify (Biblioteca de UI)
+
+Vuetify é uma biblioteca de componentes baseada no Material Design do Google. Com ele, é possível criar interfaces responsivas e elegantes sem a necessidade de estilização manual.
+
+📦 Pinia (Gerenciador de Estado)
+
+Pinia é um gerenciador de estado moderno para Vue.js, sendo uma alternativa mais simples e intuitiva ao Vuex. Ele permite centralizar e compartilhar estados entre componentes de forma eficiente.
+
+![alt text](image.png)
 
 ## Project setup
 
@@ -50,7 +67,3 @@ pnpm build
 # bun
 bun run build
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).

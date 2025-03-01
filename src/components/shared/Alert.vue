@@ -1,7 +1,7 @@
 <template>
   <div class="alert-notification">
     <v-alert
-    class="animate__animated animate__pulse"
+      class="animate__animated animate__pulse"
       :type="alertStore.type"
       :text="alertStore.text"
       closable
@@ -10,9 +10,9 @@
 </template>
 
 <script setup>
-import 'animate.css';
+import 'animate.css'
 import { useAlertStore } from '@/store/alert'
-const alertStore = useAlertStore();
+const alertStore = useAlertStore()
 
 </script>
 

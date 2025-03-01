@@ -3,11 +3,11 @@
     <v-list lines="three" select-strategy="classic">
       <v-list-subheader>Tasks</v-list-subheader>
 
-      <v-list-item 
-      v-for="(task, index) in taskStore.tasks" 
-      :key="index" 
-      :value="index"
-      @click="taskStore.toggleDoneTask(index)"
+      <v-list-item
+        v-for="(task, index) in taskStore.tasks"
+        :key="index"
+        :value="index"
+        @click="taskStore.toggleDoneTask(index)"
       >
         <template v-slot:prepend="{ }">
           <v-list-item-action start>
@@ -39,17 +39,18 @@
         </template>
       </v-list-item>
     </v-list>
+
     <DialogTaskField
       :task="taskStore.tasks[taskStore.indexTaskSelected]"
-      />
+    />
       <DialogDelete />
   </div>
 </template>
 
 <script setup>
-import DialogTaskField from "@/components/dialogs/DialogTaskFields.vue";
-import DialogDelete from "@/components/dialogs/DialogDelete.vue";
-import { useTaskStore} from '@/store/task'
+import DialogTaskField from "@/components/dialogs/DialogTaskFields.vue"
+import DialogDelete from "@/components/dialogs/DialogDelete.vue"
+import { useTaskStore } from '@/store/task'
 
 const taskStore = useTaskStore();
 

@@ -1,10 +1,14 @@
 <template>
   <div class="ma-4 text-center">
     <h1 class="ma-4">Obrigado!</h1>
-    <p class="ma-4">A baixo algumas tecnologias que aprendemmos.</p>
+
+    <p class="ma-4">Stack do projeto.</p>
+
     <v-divider></v-divider>
   </div>
+
   <div></div>
+
   <div class="ma-4 d-flex">
     <AboutCard
       v-for="(item, index) in items"
@@ -18,18 +22,18 @@
 
   <div class="text-center">
     <v-divider class="ma-4"></v-divider>
+
     <a
       target="_blank"
       href="https://link-service.netlify.app/"
       alt="Minhas mídias sociais"
     >
-      <v-btn color="primary"> 👨‍💻 Minhas mídias sociais 🤓 ✌️ </v-btn>
     </a>
   </div>
 </template>
 
 <script setup>
-import AboutCard from "@/components/about/AboutCard.vue";
+import AboutCard from "@/components/about/AboutCard.vue"
 
 const items = [
   {

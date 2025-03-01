@@ -7,27 +7,34 @@ export const useAlertStore = defineStore('alert', {
     type: "error",
     text: "teste!!!"
   }),
+
   actions:{
     notifyAlert(){
-        this.showAlert = true;
+        this.showAlert = true
         setTimeout(()=>{
-            this.showAlert = false;
+            this.showAlert = false
         }, 3000)
     },
+
     notifyAlertCreated(){
-      this.type = "success";
+      this.type = "success"
       this.text = "Task created success!!!"
-      this.notifyAlert();
+
+      this.notifyAlert()
     },
+
     notifyAlertDeleted(){
-      this.type = "warning";
+      this.type = "warning"
       this.text = "Task deleted!!!"
-      this.notifyAlert();
+
+      this.notifyAlert()
     },
+
     notifyAlertUpdated(){
-      this.type = "info";
+      this.type = "info"
       this.text = "Task updated!!!"
-      this.notifyAlert();
-    },
+
+      this.notifyAlert()
+    }
   }
 })

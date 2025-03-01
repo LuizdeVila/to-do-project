@@ -5,8 +5,11 @@
         height="200px"
         cover
       ></v-img>
+
       <v-card-title>{{ props.title }}</v-card-title>
+
       <v-card-subtitle>{{ props.subtitle }}</v-card-subtitle>
+
       <v-card-actions>
         <v-btn color="orange-lighten-2" variant="text"> Explore </v-btn>
         <v-spacer></v-spacer>
@@ -15,9 +18,11 @@
           @click="show = !show"
         ></v-btn>
       </v-card-actions>
+
       <v-expand-transition>
         <div v-show="show">
           <v-divider></v-divider>
+
           <v-card-text>
             {{ props.text }}
           </v-card-text>
@@ -25,9 +30,9 @@
       </v-expand-transition>
     </v-card>
   </template>
-  
+
   <script setup>
-  import { ref, defineProps } from 'vue';
+  import { ref, defineProps } from 'vue'
 
   const props = defineProps({
     image: String,
@@ -35,7 +40,7 @@
     subtitle: String,
     text: String
   })
-  
+
   const show = ref(false);
-  
+
   </script>

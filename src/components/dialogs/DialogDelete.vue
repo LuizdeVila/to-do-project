@@ -9,9 +9,12 @@
           <v-card-title class="text-h5">
             Are you sure you want delete this task?
           </v-card-title>
+
           <v-card-text>This action can't be reverted..</v-card-text>
+
           <v-card-actions>
             <v-spacer></v-spacer>
+
             <v-btn
               color="red-darken-1"
               variant="elevated"
@@ -35,5 +38,5 @@
 <script setup>
 import { useTaskStore} from '@/store/task'
 
-const taskStore = useTaskStore();
+const taskStore = useTaskStore()
 </script>

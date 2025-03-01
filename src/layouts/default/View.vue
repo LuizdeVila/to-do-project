@@ -12,7 +12,7 @@
         <v-list>
           <v-list-item
             prepend-avatar="https://github.com/yurimarcon/avatars/blob/main/Colored/ToyFaces_Colored_BG_29.jpg?raw=true"
-            title="Yuri Marcon"
+            title="Luiz de Vila"
             subtitle="To Do List"
           >
           </v-list-item>
@@ -57,14 +57,14 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref } from "vue"
 
-const drawer = ref(null);
+const drawer = ref(null)
 
 const items = [
   { text: "Home", icon: "mdi-folder", to: "/" },
   { text: "About", icon: "mdi-account-multiple", to: "/about" },
-];
+]
 </script>
 
 <style scoped>
