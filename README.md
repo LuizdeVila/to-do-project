@@ -3,8 +3,6 @@
 ## Objetivo
 Este projeto foi desenvolvido durante o curso de Vue 3 ministrado por Yuri Marcon na Udemy. O principal objetivo é praticar o desenvolvimento utilizando **Vue 3**, **Vuetify** e **Pinia**, criando uma interface moderna, responsiva e com um gerenciamento de estado eficiente.
 
-🔗 Link para acessar: [To-Do Project](https://to-do-projeto.netlify.app/)
-
 ---
 
 ## Tecnologias utilizadas
