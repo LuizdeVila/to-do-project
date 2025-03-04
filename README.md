@@ -81,3 +81,6 @@ Os arquivos otimizados estarão na pasta **dist/**.
 
 Feito para praticar Vue 3 e tecnologias modernas! 🚀
 
+![image](https://github.com/user-attachments/assets/08c80738-655f-4aa4-8cb2-9df95e9ea070)
+
+
