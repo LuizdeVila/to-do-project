@@ -1,34 +1,35 @@
-# 📚 Curso de Vue 3 com Vuetify e Pinia
+# To-Do Project
 
-📌 Descrição
+## Objetivo
+Este projeto foi desenvolvido durante o curso de Vue 3 ministrado por Yuri Marcon na Udemy. O principal objetivo é praticar o desenvolvimento utilizando **Vue 3**, **Vuetify** e **Pinia**, criando uma interface moderna, responsiva e com um gerenciamento de estado eficiente.
 
-Este projeto foi desenvolvido durante o curso disponível na plataforma de ensino Udemy ministrado por Yuri Marcon e utilizando Vue.js, Vuetify e Pinia para criar uma interface moderna, responsiva e com um gerenciamento de estado eficiente.
-O link para acessar https://to-do-projeto.netlify.app/
+🔗 Link para acessar: [To-Do Project](https://to-do-projeto.netlify.app/)
 
-🚀 Tecnologias Utilizadas
+---
 
-🟢 Vue.js (Framework)
+## Tecnologias utilizadas
+- **Vue 3**: Framework JavaScript progressivo para construção de interfaces interativas.
+- **Vuetify**: Biblioteca de componentes baseada no Material Design do Google, proporcionando interfaces elegantes e responsivas.
+- **Pinia**: Gerenciador de estado moderno e intuitivo, permitindo centralizar e compartilhar estados entre componentes.
 
-Vue.js é um framework progressivo para construção de interfaces de usuário. Ele é focado na camada de visualização e pode ser facilmente integrado a outros projetos ou utilizado para desenvolver Single Page Applications (SPAs).
+---
 
-🎨 Vuetify (Biblioteca de UI)
+## Como rodar o projeto?
 
-Vuetify é uma biblioteca de componentes baseada no Material Design do Google. Com ele, é possível criar interfaces responsivas e elegantes sem a necessidade de estilização manual.
-
-📦 Pinia (Gerenciador de Estado)
-
-Pinia é um gerenciador de estado moderno para Vue.js, sendo uma alternativa mais simples e intuitiva ao Vuex. Ele permite centralizar e compartilhar estados entre componentes de forma eficiente.
-
-![alt text](image.png)
-
-## Project setup
-
+### 1. Clonar o repositório
+```sh
+git clone https://github.com/LuizdeVila/todo-project.git
+cd todo-project
 ```
-# yarn
-yarn
 
+### 2. Instalar as dependências
+Escolha seu gerenciador de pacotes favorito e execute um dos comandos abaixo:
+```sh
 # npm
 npm install
+
+# yarn
+yarn
 
 # pnpm
 pnpm install
@@ -37,14 +38,13 @@ pnpm install
 bun install
 ```
 
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
+### 3. Rodar o projeto
+```sh
 # npm
 npm run dev
+
+# yarn
+yarn dev
 
 # pnpm
 pnpm dev
@@ -53,14 +53,18 @@ pnpm dev
 bun run dev
 ```
 
-### Compiles and minifies for production
+O projeto estará disponível em **http://localhost:5173/** (ou outra porta especificada pelo Vite).
 
-```
-# yarn
-yarn build
+---
 
+## Build para produção
+Para gerar a versão otimizada do projeto, execute:
+```sh
 # npm
 npm run build
+
+# yarn
+yarn build
 
 # pnpm
 pnpm build
@@ -68,3 +72,14 @@ pnpm build
 # bun
 bun run build
 ```
+Os arquivos otimizados estarão na pasta **dist/**.
+
+---
+
+## Deploy
+🔗 Link para acessar: [To-Do Project](https://to-do-projeto.netlify.app/)
+
+---
+
+Feito para praticar Vue 3 e tecnologias modernas! 🚀
+
